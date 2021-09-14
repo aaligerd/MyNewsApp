@@ -13,7 +13,7 @@ export class NewsCards extends Component {
         return (
             
             <div>
-                <div className="card" style={{ width: "100%", border: `0.3px ${mode === "light" ? "black" : "white"} solid`}}>
+                <div className="card" style={{border: `0.3px ${mode === "light" ? "black" : "white"} solid`}}>
                 <span className="position-absolute top-0  translate-middle badge rounded-pill bg-danger" style={{zIndex:'1',left:'20%'}}>{source}</span>
                     <img src={imgUrl ? imgUrl : noImgLink} className="card-img-top" alt="  NoContentImage" style={imgStyle} />
                     <div className="card-body">
